@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "GoogleMaps",
-        "repositoryURL": "https://github.com/sk-chanch/GoogleMaps-SPM",
+        "repositoryURL": "https://github.com/YAtechnologies/GoogleMaps-SP",
         "state": {
-          "branch": "main",
-          "revision": "500789d820462347565b042cfc131a05f5ca798c",
-          "version": null
+          "branch": null,
+          "revision": "684ea6db362feaefdfcff89356e446bec8bcde3d",
+          "version": "7.2.0"
         }
       },
       {

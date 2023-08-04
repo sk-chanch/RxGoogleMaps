@@ -13,8 +13,8 @@ let package = Package(
             targets: ["RxGoogleMaps"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/sk-chanch/GoogleMaps-SPM", branch: "main"),
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMinor(from: "6.5.0"))
+        .package(url: "https://github.com/YAtechnologies/GoogleMaps-SP", .upToNextMinor(from: "7.2.0")),
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -24,7 +24,7 @@ let package = Package(
             dependencies: [
                 "RxSwift",
                 .product(name: "RxCocoa", package: "RxSwift"),
-                .product(name: "GoogleMaps", package: "GoogleMaps-SPM")
+                .product(name: "GoogleMaps", package: "GoogleMaps-SP")
                 
             ],
             path: "Sources"
